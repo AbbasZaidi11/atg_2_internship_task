@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+.AppContainer {
+  display: flex;
+
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -32,7 +37,26 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.hourglass-wrapper {
+  background-color: #f0f0f0;
+  /* Set the background color of the spinner container */
+  border-radius: 10px;
+  /* Add rounded corners if desired */
+  padding: 20px;
+  /* Adjust the padding as needed */
+  border: 1px solid #ccc;
+  /* Add a border if desired */
+  /* Additional styles as per your design */
+}
+
+/* Styling the spinner itself */
+.hourglass-wrapper .hourglass-spinner {
+  /* Apply styles to the spinner, e.g., change its color */
+  color: #306cce;
 }
